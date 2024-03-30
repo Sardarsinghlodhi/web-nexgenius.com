@@ -10,7 +10,7 @@ import { mainRoutingModule } from './components/main/main.routing';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NxgMainComponent,NxgHeaderComponent, NxgHomeComponent,mainRoutingModule
+  imports: [RouterOutlet, NxgMainComponent,NxgHeaderComponent, NxgHomeComponent,NxgFooterComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './app.component.html',

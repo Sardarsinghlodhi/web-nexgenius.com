@@ -1,0 +1,28 @@
+// Colors
+$primary: #ff1e5c;
+$secondary: #6c757d;
+$info: #0dcaf0;
+$blue: #0d6efd;
+$light: #f8f9fa;
+$white: #ffffff;
+$dark: #000;
+$danger: #dc3545;
+$warning: #ffc107;
+
+.portfolio_wrapper {
+    .portfolio-banner-bg {
+        background-image: url(../../../../assets/images/banner/portfolio.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .card {
+        &:hover {
+            transform: scale(1.0);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+        }
+    }
+
+
+}
