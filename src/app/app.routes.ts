@@ -6,6 +6,7 @@ import { NxgAboutComponent } from './components/main/about/about.component';
 import { NxgPortfolioComponent } from './components/main/portfolio/portfolio.component';
 import { NxgProjectComponent } from './components/main/project/project.component';
 import { NxgContactComponent } from './components/main/contact/contact.component';
+import { NxgPortfolioViewComponent } from './components/main/portfolio/view/view.component';
 
 export const routes: Routes = [
     {
@@ -24,6 +25,9 @@ export const routes: Routes = [
             },
             {
                 path: 'portfolio', component: NxgPortfolioComponent,
+                children:[
+                     {path:'view' , component:NxgPortfolioViewComponent}
+                ]
             },
             {
                 path: 'project', component: NxgProjectComponent,
